@@ -1,18 +1,20 @@
+// zodValidate.js
 const { formatZodErrors } = require("./formatZodErrors");
 
 async function zodValidate(req, reply, schema) {
-    const result = schema.safeParse(req.body);
+    const result = await schema.safeParse(req.body);
 
     if (!result.success) {
-        return reply.code(400).send({
+        reply.code(400).send({
             success: false,
-            errors: formatZodErrors(result.error)
+            message: formatZodErrors(JSON.parse(result.error)),
+            result: null
         });
+
+        return { success: false }; // STOP HANDLER
     }
 
-
-    // Return parsed data (clean)
-    return result.data;
+    return { success: true, data: result.data };
 }
 
 module.exports = { zodValidate };

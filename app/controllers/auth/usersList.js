@@ -1,18 +1,21 @@
+// usersList.js
 const { validateUser } = require("./vaidators");
-const { zodValidate } = require("../../middleware/utils");
+const { zodValidate } = require("../../middleware/utils/zodValidate");
 
 const usersList = async (req, reply) => {
-    var result = await zodValidate(req, reply, validateUser);
+    const result = await zodValidate(req, reply, validateUser);
 
-    console.log(result, "ahfioaf");
+    // If validation failed, STOP here
+    if (!result.success) return;
+
+    console.log(result.data, "validated_data");
+
     return reply
-        .code(200) // same as res.status(200)
+        .code(200)
         .send({
             success: true,
             message: "Dummy User List",
-            users: [
-                { id: 1, username: "John Doe" }
-            ]
+            result: result.data
         });
 };
 

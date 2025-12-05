@@ -14,6 +14,7 @@ const fastifyView = require("@fastify/view");
 const ejs = require("ejs");
 const { Server } = require("socket.io");
 
+
 // Redis optional
 let fastifyRedis, expeditious, expeditiousRedis;
 if (process.env.USE_REDIS === "true") {
@@ -32,6 +33,8 @@ fastify.register(fastifyCors, {
     origin: "*",
     credentials: true,
 });
+
+
 
 // Helmet security
 fastify.register(fastifyHelmet);

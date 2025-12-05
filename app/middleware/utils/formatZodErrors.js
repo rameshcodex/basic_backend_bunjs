@@ -1,8 +1,9 @@
-function formatZodErrors(zodError) {
-    return zodError.issues.map(err => ({
-        field: err.path.join("."),
-        message: err.message
-    }));
+// formatZodErrors.js
+function formatZodErrors(error) {
+    return error?.length > 0 ? error[0].message : "Something went wrong"
+
+
+
 }
 
 module.exports = { formatZodErrors };
