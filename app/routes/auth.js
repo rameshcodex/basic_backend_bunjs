@@ -1,8 +1,10 @@
-const { usersList } = require("../controllers/auth");
+const { usersList, addEurPair } = require("../controllers/auth");
 const { validateUser } = require("../controllers/auth/vaidators");
 
 module.exports = async function (fastify, opts) {
 
-    fastify.post("/", usersList);
+    fastify.get("/", usersList);
+
+    fastify.post("/addEurPair", addEurPair);
 
 };

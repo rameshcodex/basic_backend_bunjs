@@ -13,6 +13,7 @@ const fastifyStatic = require("@fastify/static");
 const fastifyView = require("@fastify/view");
 const ejs = require("ejs");
 const { Server } = require("socket.io");
+const { initMongo } = require('./config/mongo')
 
 
 // Redis optional
@@ -46,6 +47,9 @@ fastify.register(fastifyCompress);
 fastify.register(fastifyFormbody, {
     bodyLimit: 20 * 1024 * 1024,
 });
+
+initMongo(); // Connect DB (Mongoose)
+
 
 
 // Views (EJS)
