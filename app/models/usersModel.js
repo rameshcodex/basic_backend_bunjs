@@ -9,15 +9,18 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         unique: true,
+        index: true,
     },
     email: {
         type: String,
         required: true,
         unique: true,
+        index: true,
     },
     password: {
         type: String,
         required: true,
+        select: false
     },
     isNormalLogin: {
         type: Boolean,
@@ -46,7 +49,21 @@ const userSchema = new mongoose.Schema({
     verifyStatus: {
         type: Boolean,
         default: false,
-    }
+    },
+    profile_picture: {
+        type: String,
+        default: null,
+    },
+    unique_id: {
+        type: String,
+        required: true,
+        unique: true,
+        index: true,
+    },
+    role: {
+        type: String,
+        default: "user",
+    },
 }, { timestamps: true });
 
 const Users = mongoose.model("Users", userSchema);

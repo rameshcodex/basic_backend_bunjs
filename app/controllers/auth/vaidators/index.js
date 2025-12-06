@@ -1,6 +1,5 @@
-const { validateUser } = require('./usersListValidator')
-const { registerValidator } = require('./registerValidator')
-module.exports = {
-    validateUser,
-    registerValidator
-}
+const { registerValidator } = require("./registerValidator");
+const { verifyOtpValidator } = require("./verifyOtpValidator");
+const { loginValidator } = require("./loginValidator");
+
+module.exports = { registerValidator, verifyOtpValidator, loginValidator };

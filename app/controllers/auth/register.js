@@ -7,7 +7,7 @@ const ejs = require("ejs");
 // ⭐ Bun replacement for path.join(__dirname, "..")
 const templatePath = new URL("../../../views/verifyOtp.ejs", import.meta.url);
 
-const register = async (req, reply) => {
+export const register = async (req, reply) => {
     try {
         // 1. Validate Input
         const result = await zodValidate(req, reply, registerValidator);
@@ -17,7 +17,7 @@ const register = async (req, reply) => {
         // 2. Check duplicate user
         const existingUser = await Users.findOne({
             $or: [{ email }, { username }],
-        });
+        }).select("email").lean();
 
         if (existingUser) {
             return reply.code(409).send({
@@ -35,6 +35,15 @@ const register = async (req, reply) => {
         // 4. Generate OTP
         const otp = Math.floor(100000 + Math.random() * 900000);
 
+        // Generate unique unique_id
+        let unique_id;
+        let isUnique = false;
+        while (!isUnique) {
+            unique_id = `MTS-${Math.floor(10000000 + Math.random() * 90000000)}`;
+            const existingId = await Users.exists({ unique_id });
+            if (!existingId) isUnique = true;
+        }
+
         // 5. Save New User
         const newUser = await Users.create({
             name,
@@ -42,6 +51,7 @@ const register = async (req, reply) => {
             email,
             password: hashedPassword,
             emailotp: otp,
+            unique_id,
         });
 
         // 6. Load & render EJS template (Fast Bun I/O)
@@ -75,4 +85,4 @@ const register = async (req, reply) => {
     }
 };
 
-module.exports = { register };
+// module.exports = { register };

@@ -1,7 +1,5 @@
-const { usersList } = require("./usersList");
-const { register } = require('./register');
+const { register } = require("./register");
+const { verifyOtp } = require("./verifyOtp");
+const { login } = require("./login");
 
-module.exports = {
-    usersList,
-    register
-};
+module.exports = { register, verifyOtp, login };
