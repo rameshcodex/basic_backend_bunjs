@@ -3,7 +3,7 @@ const { validateUser } = require("./vaidators");
 const { zodValidate } = require("../../middleware/utils/zodValidate");
 
 const usersList = async (req, reply) => {
-    // const result = await zodValidate(req, reply, validateUser);
+    const result = await zodValidate(req, reply, validateUser);
 
     // // If validation failed, STOP here
     // if (!result.success) return;

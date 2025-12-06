@@ -2,7 +2,34 @@ require("dotenv-safe").config();
 
 const path = require("path");
 const fastify = require("fastify")({
-    logger: false,
+    logger: {
+        level: "info",
+
+        customLevels: {
+            emailotp: 35,
+            security: 36,
+            email: 37
+        },
+        useOnlyCustomLevels: false,
+
+        transport: {
+            targets: [
+                // 1️⃣ All default logs → info.log
+                {
+                    target: "pino/file",
+                    level: "info",
+                    options: { destination: "info.log", mkdir: true }
+                },
+
+                // 2️⃣ Only emailotp logs → emailotp.log
+                {
+                    target: "pino/file",
+                    level: "emailotp",
+                    options: { destination: "emailotp.log", mkdir: true }
+                }
+            ]
+        }
+    }
 });
 
 const fastifyCors = require("@fastify/cors");

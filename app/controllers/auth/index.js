@@ -1,7 +1,7 @@
 const { usersList } = require("./usersList");
-const { addEurPair } = require('./addEurPair')
+const { register } = require('./register');
 
 module.exports = {
     usersList,
-    addEurPair
+    register
 };
