@@ -51,6 +51,7 @@ export const register = async (req, reply) => {
             email,
             password: hashedPassword,
             emailotp: otp,
+            lastOtpSentAt: new Date(),
             unique_id,
         });
 

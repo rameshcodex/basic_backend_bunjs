@@ -15,3 +15,6 @@
 {"level":35,"time":1765024423084,"pid":122329,"hostname":"HashCodex","reqId":"req-5","email":"profile_1765024422248@example.com","status":"success","msg":"OTP Email Sent Successfully"}
 {"level":35,"time":1765024998352,"pid":124343,"hostname":"HashCodex","reqId":"req-1","email":"profile_1765024997315@example.com","status":"success","msg":"OTP Email Sent Successfully"}
 {"level":35,"time":1765025207951,"pid":124721,"hostname":"HashCodex","reqId":"req-1","email":"ramesh.hashcodex@gmail.com","status":"success","msg":"OTP Email Sent Successfully"}
+{"level":35,"time":1765191657621,"pid":90472,"hostname":"HashCodex","reqId":"req-5","email":"ramesh.hashcodex@gmail.com","status":"success","msg":"OTP Email Sent Successfully"}
+{"level":35,"time":1765191807693,"pid":90472,"hostname":"HashCodex","reqId":"req-1","email":"ramesh.hashcodex@gmail.com","status":"success","msg":"OTP Email Sent Successfully"}
+{"level":35,"time":1765193532251,"pid":97366,"hostname":"HashCodex","reqId":"req-4","email":"ramesh.hashcodex@gmail.com","status":"success","msg":"OTP Email Sent Successfully"}

@@ -379,3 +379,161 @@
 {"level":30,"time":1765025386138,"pid":125489,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":200},"responseTime":16.25100799999973,"msg":"request completed"}
 {"level":30,"time":1765025395747,"pid":125489,"hostname":"HashCodex","reqId":"req-2","req":{"method":"POST","url":"/testapi/users/profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":37720},"msg":"incoming request"}
 {"level":30,"time":1765025395750,"pid":125489,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":403},"responseTime":3.0253059999995457,"msg":"request completed"}
+{"level":30,"time":1765191582777,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765191615629,"pid":90472,"hostname":"HashCodex","reqId":"req-1","req":{"method":"POST","url":"/testapi/resend-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":38314},"msg":"incoming request"}
+{"level":30,"time":1765191615650,"pid":90472,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":400},"responseTime":19.50035999999818,"msg":"request completed"}
+{"level":30,"time":1765191622483,"pid":90472,"hostname":"HashCodex","reqId":"req-2","req":{"method":"POST","url":"/testapi/resend-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":38314},"msg":"incoming request"}
+{"level":30,"time":1765191622483,"pid":90472,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":400},"responseTime":0.8293410000042059,"msg":"request completed"}
+{"level":30,"time":1765191635292,"pid":90472,"hostname":"HashCodex","reqId":"req-3","req":{"method":"POST","url":"/testapi/resend-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":38314},"msg":"incoming request"}
+{"level":30,"time":1765191635306,"pid":90472,"hostname":"HashCodex","reqId":"req-3","res":{"statusCode":404},"responseTime":14.401059999996505,"msg":"request completed"}
+{"level":30,"time":1765191642024,"pid":90472,"hostname":"HashCodex","reqId":"req-4","req":{"method":"POST","url":"/testapi/resend-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":38314},"msg":"incoming request"}
+{"level":30,"time":1765191642026,"pid":90472,"hostname":"HashCodex","reqId":"req-4","res":{"statusCode":400},"responseTime":2.725814999997965,"msg":"request completed"}
+{"level":30,"time":1765191656662,"pid":90472,"hostname":"HashCodex","reqId":"req-5","req":{"method":"POST","url":"/testapi/resend-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":38314},"msg":"incoming request"}
+{"level":30,"time":1765191656684,"pid":90472,"hostname":"HashCodex","reqId":"req-5","res":{"statusCode":200},"responseTime":21.91185599999153,"msg":"request completed"}
+{"level":35,"time":1765191657621,"pid":90472,"hostname":"HashCodex","reqId":"req-5","email":"ramesh.hashcodex@gmail.com","status":"success","msg":"OTP Email Sent Successfully"}
+{"level":30,"time":1765191741937,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765191760003,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765191769256,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765191783817,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765191806829,"pid":90472,"hostname":"HashCodex","reqId":"req-1","req":{"method":"POST","url":"/testapi/resend-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":43520},"msg":"incoming request"}
+{"level":30,"time":1765191806853,"pid":90472,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":200},"responseTime":23.57194299999901,"msg":"request completed"}
+{"level":35,"time":1765191807693,"pid":90472,"hostname":"HashCodex","reqId":"req-1","email":"ramesh.hashcodex@gmail.com","status":"success","msg":"OTP Email Sent Successfully"}
+{"level":30,"time":1765191811929,"pid":90472,"hostname":"HashCodex","reqId":"req-2","req":{"method":"POST","url":"/testapi/resend-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":43520},"msg":"incoming request"}
+{"level":30,"time":1765191811932,"pid":90472,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":429},"responseTime":2.4730540000018664,"msg":"request completed"}
+{"level":30,"time":1765191819825,"pid":90472,"hostname":"HashCodex","reqId":"req-3","req":{"method":"POST","url":"/testapi/resend-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":43520},"msg":"incoming request"}
+{"level":30,"time":1765191819828,"pid":90472,"hostname":"HashCodex","reqId":"req-3","res":{"statusCode":429},"responseTime":2.9861260000034235,"msg":"request completed"}
+{"level":30,"time":1765191858997,"pid":90472,"hostname":"HashCodex","reqId":"req-4","req":{"method":"POST","url":"/testapi/verify-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":43520},"msg":"incoming request"}
+{"level":30,"time":1765191859002,"pid":90472,"hostname":"HashCodex","reqId":"req-4","res":{"statusCode":200},"responseTime":5.02995500000543,"msg":"request completed"}
+{"level":30,"time":1765191863763,"pid":90472,"hostname":"HashCodex","reqId":"req-5","req":{"method":"POST","url":"/testapi/resend-otp","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":43520},"msg":"incoming request"}
+{"level":30,"time":1765191863766,"pid":90472,"hostname":"HashCodex","reqId":"req-5","res":{"statusCode":400},"responseTime":2.629616000005626,"msg":"request completed"}
+{"level":30,"time":1765192029715,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192038900,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192071584,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192281426,"pid":90472,"hostname":"HashCodex","reqId":"req-1","req":{"method":"PUT","url":"/testapi/users/update-profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":50224},"msg":"incoming request"}
+{"level":30,"time":1765192281432,"pid":90472,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":401},"responseTime":4.766935000021476,"msg":"request completed"}
+{"level":30,"time":1765192287932,"pid":90472,"hostname":"HashCodex","reqId":"req-2","req":{"method":"PUT","url":"/testapi/users/update-profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":50224},"msg":"incoming request"}
+{"level":30,"time":1765192287934,"pid":90472,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":401},"responseTime":2.3141579999937676,"msg":"request completed"}
+{"level":30,"time":1765192295306,"pid":90472,"hostname":"HashCodex","reqId":"req-3","req":{"method":"POST","url":"/testapi/login","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":50224},"msg":"incoming request"}
+{"level":30,"time":1765192295429,"pid":90472,"hostname":"HashCodex","reqId":"req-3","res":{"statusCode":200},"responseTime":122.77488599999924,"msg":"request completed"}
+{"level":30,"time":1765192313420,"pid":90472,"hostname":"HashCodex","reqId":"req-4","req":{"method":"POST","url":"/testapi/users/profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":50224},"msg":"incoming request"}
+{"level":30,"time":1765192313425,"pid":90472,"hostname":"HashCodex","reqId":"req-4","res":{"statusCode":200},"responseTime":4.938515999994706,"msg":"request completed"}
+{"level":30,"time":1765192326057,"pid":90472,"hostname":"HashCodex","reqId":"req-5","req":{"method":"PUT","url":"/testapi/users/update-profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":50224},"msg":"incoming request"}
+{"level":30,"time":1765192326069,"pid":90472,"hostname":"HashCodex","reqId":"req-5","res":{"statusCode":400},"responseTime":11.23357500002021,"msg":"request completed"}
+{"level":30,"time":1765192338070,"pid":90472,"hostname":"HashCodex","reqId":"req-6","req":{"method":"PUT","url":"/testapi/users/update-profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":50224},"msg":"incoming request"}
+{"level":30,"time":1765192338084,"pid":90472,"hostname":"HashCodex","reqId":"req-6","res":{"statusCode":200},"responseTime":14.265360000019427,"msg":"request completed"}
+{"level":30,"time":1765192536612,"pid":90472,"hostname":"HashCodex","reqId":"req-7","req":{"method":"GET","url":"/testapi/public/uploads/profile-pictures/693425b70ab7041a9b585993_90a659b7816ce186.jpeg","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":53168},"msg":"incoming request"}
+{"level":30,"time":1765192536616,"pid":90472,"hostname":"HashCodex","reqId":"req-7","res":{"statusCode":404},"responseTime":4.0345369999995455,"msg":"request completed"}
+{"level":30,"time":1765192537366,"pid":90472,"hostname":"HashCodex","reqId":"req-8","req":{"method":"GET","url":"/favicon.ico","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":53168},"msg":"incoming request"}
+{"level":30,"time":1765192537367,"pid":90472,"hostname":"HashCodex","reqId":"req-8","res":{"statusCode":404},"responseTime":0.6658319999696687,"msg":"request completed"}
+{"level":30,"time":1765192540188,"pid":90472,"hostname":"HashCodex","reqId":"req-9","req":{"method":"GET","url":"/testapi/uploads/profile-pictures/693425b70ab7041a9b585993_90a659b7816ce186.jpeg","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":53168},"msg":"incoming request"}
+{"level":30,"time":1765192540193,"pid":90472,"hostname":"HashCodex","reqId":"req-9","res":{"statusCode":200},"responseTime":4.317534999980126,"msg":"request completed"}
+{"level":30,"time":1765192582380,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192589024,"pid":90472,"hostname":"HashCodex","reqId":"req-1","req":{"method":"GET","url":"/testapi/uploads/profile-pictures/693425b70ab7041a9b585993_90a659b7816ce186.jpeg","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":54780},"msg":"incoming request"}
+{"level":30,"time":1765192589036,"pid":90472,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":404},"responseTime":11.153955000000678,"msg":"request completed"}
+{"level":30,"time":1765192596168,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192611409,"pid":90472,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192650448,"pid":90472,"hostname":"HashCodex","reqId":"req-1","req":{"method":"PUT","url":"/testapi/users/update-profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":39928},"msg":"incoming request"}
+{"level":30,"time":1765192650489,"pid":90472,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":200},"responseTime":40.11816499999986,"msg":"request completed"}
+{"level":30,"time":1765192656582,"pid":90472,"hostname":"HashCodex","reqId":"req-2","req":{"method":"POST","url":"/testapi/users/profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":39928},"msg":"incoming request"}
+{"level":30,"time":1765192656587,"pid":90472,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":200},"responseTime":5.01034300000174,"msg":"request completed"}
+{"level":30,"time":1765192680924,"pid":94981,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192683800,"pid":94981,"hostname":"HashCodex","reqId":"req-1","req":{"method":"POST","url":"/testapi/users/profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":38176},"msg":"incoming request"}
+{"level":30,"time":1765192683806,"pid":94981,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":401},"responseTime":5.567008999999871,"msg":"request completed"}
+{"level":30,"time":1765192697579,"pid":95182,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192699544,"pid":95182,"hostname":"HashCodex","reqId":"req-1","req":{"method":"POST","url":"/testapi/users/profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":40206},"msg":"incoming request"}
+{"level":30,"time":1765192699550,"pid":95182,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":401},"responseTime":5.173119999999926,"msg":"request completed"}
+{"level":30,"time":1765192742919,"pid":95453,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192744330,"pid":95453,"hostname":"HashCodex","reqId":"req-1","req":{"method":"POST","url":"/testapi/users/profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":43832},"msg":"incoming request"}
+{"level":30,"time":1765192744347,"pid":95453,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":200},"responseTime":16.300238000000036,"msg":"request completed"}
+{"level":30,"time":1765192749681,"pid":95453,"hostname":"HashCodex","reqId":"req-2","req":{"method":"PUT","url":"/testapi/users/update-profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":43832},"msg":"incoming request"}
+{"level":30,"time":1765192749699,"pid":95453,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":200},"responseTime":17.649900999999772,"msg":"request completed"}
+{"level":30,"time":1765192757226,"pid":95453,"hostname":"HashCodex","reqId":"req-3","req":{"method":"GET","url":"/testapi/public/uploads/693425b70ab7041a9b585993_331f6c4aef1d9eed.jpeg","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":42026},"msg":"incoming request"}
+{"level":30,"time":1765192757230,"pid":95453,"hostname":"HashCodex","reqId":"req-3","res":{"statusCode":404},"responseTime":3.4439000000002125,"msg":"request completed"}
+{"level":30,"time":1765192757370,"pid":95453,"hostname":"HashCodex","reqId":"req-4","req":{"method":"GET","url":"/favicon.ico","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":42026},"msg":"incoming request"}
+{"level":30,"time":1765192757371,"pid":95453,"hostname":"HashCodex","reqId":"req-4","res":{"statusCode":404},"responseTime":0.7320240000008198,"msg":"request completed"}
+{"level":30,"time":1765192778303,"pid":95453,"hostname":"HashCodex","reqId":"req-5","req":{"method":"GET","url":"/testapi/uploads/693425b70ab7041a9b585993_331f6c4aef1d9eed.jpeg","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":42026},"msg":"incoming request"}
+{"level":30,"time":1765192778307,"pid":95453,"hostname":"HashCodex","reqId":"req-5","res":{"statusCode":200},"responseTime":3.11746800000401,"msg":"request completed"}
+{"level":30,"time":1765192784047,"pid":95453,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192788006,"pid":95453,"hostname":"HashCodex","reqId":"req-1","req":{"method":"PUT","url":"/testapi/users/update-profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":53782},"msg":"incoming request"}
+{"level":30,"time":1765192788039,"pid":95453,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":200},"responseTime":32.25377000000026,"msg":"request completed"}
+{"level":30,"time":1765192797935,"pid":95453,"hostname":"HashCodex","reqId":"req-2","req":{"method":"GET","url":"/testapi/uploads/693425b70ab7041a9b585993_8fcf3a8be63e9c72.jpeg","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":37918},"msg":"incoming request"}
+{"level":30,"time":1765192797940,"pid":95453,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":200},"responseTime":4.8451139999997395,"msg":"request completed"}
+{"level":30,"time":1765192942667,"pid":95453,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765192986007,"pid":95453,"hostname":"HashCodex","reqId":"req-1","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":42328},"msg":"incoming request"}
+{"level":30,"time":1765192986022,"pid":95453,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":400},"responseTime":13.785208000001148,"msg":"request completed"}
+{"level":30,"time":1765192988632,"pid":95453,"hostname":"HashCodex","reqId":"req-2","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":42328},"msg":"incoming request"}
+{"level":30,"time":1765192988639,"pid":95453,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":400},"responseTime":6.175309999998717,"msg":"request completed"}
+{"level":30,"time":1765192995269,"pid":95453,"hostname":"HashCodex","reqId":"req-3","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":42328},"msg":"incoming request"}
+{"level":30,"time":1765192995272,"pid":95453,"hostname":"HashCodex","reqId":"req-3","res":{"statusCode":400},"responseTime":3.3558350000021164,"msg":"request completed"}
+{"level":30,"time":1765193004304,"pid":95453,"hostname":"HashCodex","reqId":"req-4","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":42328},"msg":"incoming request"}
+{"level":30,"time":1765193004307,"pid":95453,"hostname":"HashCodex","reqId":"req-4","res":{"statusCode":400},"responseTime":3.407435000000987,"msg":"request completed"}
+{"level":30,"time":1765193015932,"pid":95453,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765193023469,"pid":95453,"hostname":"HashCodex","reqId":"req-1","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":52286},"msg":"incoming request"}
+{"level":30,"time":1765193023489,"pid":95453,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":400},"responseTime":19.012116000000788,"msg":"request completed"}
+{"level":30,"time":1765193030168,"pid":95453,"hostname":"HashCodex","reqId":"req-2","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":52286},"msg":"incoming request"}
+{"level":30,"time":1765193030173,"pid":95453,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":400},"responseTime":4.543330999998943,"msg":"request completed"}
+{"level":30,"time":1765193046208,"pid":95453,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765193056286,"pid":95453,"hostname":"HashCodex","reqId":"req-1","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":39330},"msg":"incoming request"}
+{"level":30,"time":1765193056308,"pid":95453,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":400},"responseTime":21.603048999999373,"msg":"request completed"}
+{"level":30,"time":1765193077824,"pid":95453,"hostname":"HashCodex","reqId":"req-2","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":39330},"msg":"incoming request"}
+{"level":30,"time":1765193077827,"pid":95453,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":400},"responseTime":3.408817999996245,"msg":"request completed"}
+{"level":30,"time":1765193084734,"pid":95453,"hostname":"HashCodex","reqId":"req-3","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":39330},"msg":"incoming request"}
+{"level":30,"time":1765193084851,"pid":95453,"hostname":"HashCodex","reqId":"req-3","res":{"statusCode":400},"responseTime":116.1815540000025,"msg":"request completed"}
+{"level":30,"time":1765193091589,"pid":95453,"hostname":"HashCodex","reqId":"req-4","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":39330},"msg":"incoming request"}
+{"level":30,"time":1765193091823,"pid":95453,"hostname":"HashCodex","reqId":"req-4","res":{"statusCode":200},"responseTime":233.6686069999996,"msg":"request completed"}
+{"level":30,"time":1765193094307,"pid":95453,"hostname":"HashCodex","reqId":"req-5","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":39330},"msg":"incoming request"}
+{"level":30,"time":1765193094426,"pid":95453,"hostname":"HashCodex","reqId":"req-5","res":{"statusCode":400},"responseTime":119.45199699999648,"msg":"request completed"}
+{"level":30,"time":1765193100210,"pid":95453,"hostname":"HashCodex","reqId":"req-6","req":{"method":"POST","url":"/testapi/login","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":39330},"msg":"incoming request"}
+{"level":30,"time":1765193100330,"pid":95453,"hostname":"HashCodex","reqId":"req-6","res":{"statusCode":401},"responseTime":119.71440799999982,"msg":"request completed"}
+{"level":30,"time":1765193102923,"pid":95453,"hostname":"HashCodex","reqId":"req-7","req":{"method":"POST","url":"/testapi/login","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":39330},"msg":"incoming request"}
+{"level":30,"time":1765193103036,"pid":95453,"hostname":"HashCodex","reqId":"req-7","res":{"statusCode":500},"responseTime":113.43289200000436,"msg":"request completed"}
+{"level":30,"time":1765193159108,"pid":97366,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765193161560,"pid":97366,"hostname":"HashCodex","reqId":"req-1","req":{"method":"POST","url":"/testapi/login","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":54876},"msg":"incoming request"}
+{"level":30,"time":1765193161688,"pid":97366,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":200},"responseTime":128.48230700000022,"msg":"request completed"}
+{"level":30,"time":1765193184815,"pid":97366,"hostname":"HashCodex","reqId":"req-2","req":{"method":"POST","url":"/testapi/users/profile","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":54876},"msg":"incoming request"}
+{"level":30,"time":1765193184821,"pid":97366,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":200},"responseTime":6.005864999999176,"msg":"request completed"}
+{"level":30,"time":1765193189463,"pid":97366,"hostname":"HashCodex","reqId":"req-3","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":54876},"msg":"incoming request"}
+{"level":30,"time":1765193189585,"pid":97366,"hostname":"HashCodex","reqId":"req-3","res":{"statusCode":400},"responseTime":121.65480000000025,"msg":"request completed"}
+{"level":30,"time":1765193195877,"pid":97366,"hostname":"HashCodex","reqId":"req-4","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":54876},"msg":"incoming request"}
+{"level":30,"time":1765193195994,"pid":97366,"hostname":"HashCodex","reqId":"req-4","res":{"statusCode":400},"responseTime":117.26584400000138,"msg":"request completed"}
+{"level":30,"time":1765193200711,"pid":97366,"hostname":"HashCodex","reqId":"req-5","req":{"method":"PUT","url":"/testapi/users/change-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":54876},"msg":"incoming request"}
+{"level":30,"time":1765193200950,"pid":97366,"hostname":"HashCodex","reqId":"req-5","res":{"statusCode":200},"responseTime":238.75858000000153,"msg":"request completed"}
+{"level":30,"time":1765193296065,"pid":97366,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765193359201,"pid":97366,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765193372100,"pid":97366,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765193384833,"pid":97366,"hostname":"HashCodex","msg":"Server listening at http://127.0.0.1:3700"}
+{"level":30,"time":1765193512670,"pid":97366,"hostname":"HashCodex","reqId":"req-1","req":{"method":"POST","url":"/testapi/forgot-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193512678,"pid":97366,"hostname":"HashCodex","reqId":"req-1","res":{"statusCode":400},"responseTime":7.595994999996037,"msg":"request completed"}
+{"level":30,"time":1765193516868,"pid":97366,"hostname":"HashCodex","reqId":"req-2","req":{"method":"POST","url":"/testapi/forgot-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193516869,"pid":97366,"hostname":"HashCodex","reqId":"req-2","res":{"statusCode":400},"responseTime":0.8599140000005718,"msg":"request completed"}
+{"level":30,"time":1765193525623,"pid":97366,"hostname":"HashCodex","reqId":"req-3","req":{"method":"POST","url":"/testapi/forgot-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193525631,"pid":97366,"hostname":"HashCodex","reqId":"req-3","res":{"statusCode":404},"responseTime":8.3089790000231,"msg":"request completed"}
+{"level":30,"time":1765193531384,"pid":97366,"hostname":"HashCodex","reqId":"req-4","req":{"method":"POST","url":"/testapi/forgot-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193531398,"pid":97366,"hostname":"HashCodex","reqId":"req-4","res":{"statusCode":200},"responseTime":14.384110999992117,"msg":"request completed"}
+{"level":35,"time":1765193532251,"pid":97366,"hostname":"HashCodex","reqId":"req-4","email":"ramesh.hashcodex@gmail.com","status":"success","msg":"OTP Email Sent Successfully"}
+{"level":30,"time":1765193534703,"pid":97366,"hostname":"HashCodex","reqId":"req-5","req":{"method":"POST","url":"/testapi/forgot-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193534706,"pid":97366,"hostname":"HashCodex","reqId":"req-5","res":{"statusCode":429},"responseTime":2.5106070000038017,"msg":"request completed"}
+{"level":30,"time":1765193578820,"pid":97366,"hostname":"HashCodex","reqId":"req-6","req":{"method":"POST","url":"/testapi/forgot-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193578823,"pid":97366,"hostname":"HashCodex","reqId":"req-6","res":{"statusCode":429},"responseTime":2.4684370000031777,"msg":"request completed"}
+{"level":30,"time":1765193604376,"pid":97366,"hostname":"HashCodex","reqId":"req-7","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193604378,"pid":97366,"hostname":"HashCodex","reqId":"req-7","res":{"statusCode":400},"responseTime":1.6668979999958538,"msg":"request completed"}
+{"level":30,"time":1765193609608,"pid":97366,"hostname":"HashCodex","reqId":"req-8","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193609609,"pid":97366,"hostname":"HashCodex","reqId":"req-8","res":{"statusCode":400},"responseTime":1.4374920000263955,"msg":"request completed"}
+{"level":30,"time":1765193624249,"pid":97366,"hostname":"HashCodex","reqId":"req-9","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193624250,"pid":97366,"hostname":"HashCodex","reqId":"req-9","res":{"statusCode":400},"responseTime":1.2680409999738913,"msg":"request completed"}
+{"level":30,"time":1765193637991,"pid":97366,"hostname":"HashCodex","reqId":"req-a","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193637992,"pid":97366,"hostname":"HashCodex","reqId":"req-a","res":{"statusCode":400},"responseTime":1.071730000025127,"msg":"request completed"}
+{"level":30,"time":1765193654335,"pid":97366,"hostname":"HashCodex","reqId":"req-b","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193654336,"pid":97366,"hostname":"HashCodex","reqId":"req-b","res":{"statusCode":400},"responseTime":1.082870999991428,"msg":"request completed"}
+{"level":30,"time":1765193660724,"pid":97366,"hostname":"HashCodex","reqId":"req-c","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193660725,"pid":97366,"hostname":"HashCodex","reqId":"req-c","res":{"statusCode":400},"responseTime":0.808638000045903,"msg":"request completed"}
+{"level":30,"time":1765193668848,"pid":97366,"hostname":"HashCodex","reqId":"req-d","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193668850,"pid":97366,"hostname":"HashCodex","reqId":"req-d","res":{"statusCode":404},"responseTime":2.6449430000502616,"msg":"request completed"}
+{"level":30,"time":1765193675644,"pid":97366,"hostname":"HashCodex","reqId":"req-e","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193675647,"pid":97366,"hostname":"HashCodex","reqId":"req-e","res":{"statusCode":400},"responseTime":2.847871000005398,"msg":"request completed"}
+{"level":30,"time":1765193686151,"pid":97366,"hostname":"HashCodex","reqId":"req-f","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193686270,"pid":97366,"hostname":"HashCodex","reqId":"req-f","res":{"statusCode":200},"responseTime":118.02292499999749,"msg":"request completed"}
+{"level":30,"time":1765193693655,"pid":97366,"hostname":"HashCodex","reqId":"req-g","req":{"method":"POST","url":"/testapi/login","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193693774,"pid":97366,"hostname":"HashCodex","reqId":"req-g","res":{"statusCode":200},"responseTime":119.2423289999715,"msg":"request completed"}
+{"level":30,"time":1765193698120,"pid":97366,"hostname":"HashCodex","reqId":"req-h","req":{"method":"POST","url":"/testapi/reset-password","host":"localhost:3700","remoteAddress":"127.0.0.1","remotePort":60708},"msg":"incoming request"}
+{"level":30,"time":1765193698123,"pid":97366,"hostname":"HashCodex","reqId":"req-h","res":{"statusCode":400},"responseTime":2.75553399999626,"msg":"request completed"}

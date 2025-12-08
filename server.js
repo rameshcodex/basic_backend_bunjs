@@ -36,6 +36,7 @@ const fastifyCors = require("@fastify/cors");
 const fastifyHelmet = require("@fastify/helmet");
 const fastifyCompress = require("@fastify/compress");
 const fastifyFormbody = require("@fastify/formbody");
+const fastifyMultipart = require("@fastify/multipart");
 const fastifyStatic = require("@fastify/static");
 const fastifyView = require("@fastify/view");
 const ejs = require("ejs");
@@ -73,6 +74,13 @@ fastify.register(fastifyCompress);
 // Body parser
 fastify.register(fastifyFormbody, {
     bodyLimit: 20 * 1024 * 1024,
+});
+
+// Multipart for file uploads
+fastify.register(fastifyMultipart, {
+    limits: {
+        fileSize: 5 * 1024 * 1024, // 5MB max file size
+    },
 });
 
 initMongo(); // Connect DB (Mongoose)
