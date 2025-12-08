@@ -44,6 +44,23 @@ const login = async (req, reply) => {
             });
         }
 
+        // Check 2FA Status
+        const userWith2FA = await Users.findById(user._id).select("2fastatus").lean();
+
+        if (userWith2FA && userWith2FA["2fastatus"]) {
+            // 2FA is enabled - don't send token, require 2FA validation
+            return reply.code(200).send({
+                success: true,
+                requires2FA: true,
+                message: "2FA is enabled. Please verify with your authenticator code.",
+                result: {
+                    userId: user._id.toString(),
+                    email: user.email,
+                },
+            });
+        }
+
+        // 2FA not enabled, proceed with normal login
         const token = await generateToken({
             id: user._id,
             username: user.username,

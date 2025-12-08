@@ -4,6 +4,7 @@ const { loginValidator } = require("./loginValidator");
 const { resendOtpValidator } = require("./resendOtpValidator");
 const { forgotPasswordValidator } = require("./forgotPasswordValidator");
 const { resetPasswordValidator } = require("./resetPasswordValidator");
+const { validate2FALoginValidator } = require("./validate2FALoginValidator");
 
 module.exports = {
     registerValidator,
@@ -11,5 +12,6 @@ module.exports = {
     loginValidator,
     resendOtpValidator,
     forgotPasswordValidator,
-    resetPasswordValidator
+    resetPasswordValidator,
+    validate2FALoginValidator
 };

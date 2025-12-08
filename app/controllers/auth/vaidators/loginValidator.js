@@ -12,7 +12,7 @@ const loginValidator = z.object({
         .refine(
             (val) => val !== undefined && val !== null && val !== "",
             { message: "Please enter Password" }
-        )
+        ),
 });
 
 module.exports = { loginValidator };

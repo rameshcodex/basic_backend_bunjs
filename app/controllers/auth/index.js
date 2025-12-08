@@ -4,5 +4,6 @@ const { login } = require("./login");
 const { resendOtp } = require("./resendOtp");
 const { forgotPassword } = require("./forgotPassword");
 const { resetPassword } = require("./resetPassword");
+const { validate2FALogin } = require("./validate2FALogin");
 
-module.exports = { register, verifyOtp, login, resendOtp, forgotPassword, resetPassword };
+module.exports = { register, verifyOtp, login, resendOtp, forgotPassword, resetPassword, validate2FALogin };

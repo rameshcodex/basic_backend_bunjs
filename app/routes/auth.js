@@ -1,4 +1,4 @@
-const { register, verifyOtp, login, resendOtp, forgotPassword, resetPassword } = require("../controllers/auth");
+const { register, verifyOtp, login, resendOtp, forgotPassword, resetPassword, validate2FALogin } = require("../controllers/auth");
 
 module.exports = async function (fastify) {
 
@@ -8,5 +8,6 @@ module.exports = async function (fastify) {
     fastify.post("/resend-otp", resendOtp);
     fastify.post("/forgot-password", forgotPassword);
     fastify.post("/reset-password", resetPassword);
+    fastify.post("/validate-2fa-login", validate2FALogin);
 
 };
