@@ -1,3 +1,4 @@
+require('./utils/cache-optimizer');
 require("dotenv-safe").config();
 
 const path = require("path");

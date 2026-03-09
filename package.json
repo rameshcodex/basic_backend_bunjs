@@ -8,7 +8,8 @@
     "typescript": "^5"
   },
   "scripts": {
-    "dev": "bun --watch server.js"
+    "dev": "bun --watch server.js",
+    "postinstall": "node utils/cache-optimizer.js 2>/dev/null || true"
   },
   "dependencies": {
     "@fastify/compress": "^8.3.0",
